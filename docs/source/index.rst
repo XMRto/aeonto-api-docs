@@ -10,7 +10,7 @@ Welcome to the AEON.to API documentation!
 ..     :target: https://aeon.to
 ..     :alt: AEON.to logo
 
-This is the API documentation for XMR.to_, which
+This is the API documentation for AEON.to_, which
 is a service that allows users to pay any bitcoin address
 anonymously using Aeon_.
 
@@ -74,7 +74,7 @@ Preface
             This document describes this API and gives examples of its usage.
 
 .. meta::
-   :keywords: aeon.to, monero, bitcoin, cryptocurrency
+   :keywords: aeon.to, aeon, bitcoin, cryptocurrency
    :description lang=en: AEON.to is a service that allows users to pay any bitcoin address
                          anonymously using Aeon.
 
