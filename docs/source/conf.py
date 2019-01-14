@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# XMR.to API documentation build configuration file, created by
+# AEON.to API documentation build configuration file, created by
 # sphinx-quickstart on Thu Apr  2 12:14:27 2015.
 #
 # This file is execfile()d with the current directory set to its
@@ -52,8 +52,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'XMR.to API'
-copyright = u'2015-2019, XMR.to'
+project = u'AEON.to API'
+copyright = u'2015-2019, AEON.to'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -186,7 +186,7 @@ html_static_path = ['_static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'XMRTOAPIdoc'
+htmlhelp_basename = 'AEONTOAPIdoc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -206,8 +206,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'XMRTOAPI.tex', u'XMR.to API Documentation',
-   u'XMR.to', 'manual'),
+  ('index', 'AEONTOAPI.tex', u'AEON.to API Documentation',
+   u'AEON.to', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -236,8 +236,8 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'xmrtoapi', u'XMR.to API Documentation',
-     [u'XMR.to], 1)
+    ('index', 'aeontoapi', u'AEON.to API Documentation',
+     [u'AEON.to'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -250,8 +250,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'XMRTOAPI', u'XMR.to API Documentation',
-   u'XMR.to', 'XMRTOAPI', 'XMR.to allows you to exchange Monero (XMR) for Bitcoin (BTC).',
+  ('index', 'AEONTOAPI', u'AEON.to API Documentation',
+   u'AEON.to', 'AEONTOAPI', 'AEON.to allows you to exchange Aeon for Bitcoin (BTC).',
    'Miscellaneous'),
 ]
 

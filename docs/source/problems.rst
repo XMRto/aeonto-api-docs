@@ -11,10 +11,8 @@ Please check:
 
 If none of this resolves the problem, please contact support.
 
+
 Contact
 -------
 
- * Follow us on Twitter: https://twitter.com/xmr_to
- * Bitcointalk support thread: https://bitcointalk.org/index.php?topic=959994
- * Monero forum support thread: https://forum.getmonero.org/3/merchants-and-marketplace/155/xmr-to-pay-any-bitcoin-address-anonymously-using-monero
- * XMR.to support: support@xmr.to
+ * AEON.to support: support@aeon.to
