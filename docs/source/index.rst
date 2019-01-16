@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 Welcome to the AEON.to API documentation!
-========================================
+=========================================
 
 .. .. image:: _static/xmrto-twitter-logo.png
 ..     :target: https://aeon.to

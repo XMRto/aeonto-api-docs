@@ -43,14 +43,14 @@ Fields should be self-explanatory.
 
 On failure, one of the following errors is returned:
 
-=========   ===================     =================================    ================
+=========   ====================     =================================    ================
 HTTP code   AEON.to error code       Error message/reason                 Solution
-=========   ===================     =================================    ================
+=========   ====================     =================================    ================
 ``503``     ``AEONTO-ERROR-001``     internal services not available      try again later
 ``503``     ``AEONTO-ERROR-007``     third party service not available    try again later
 ``503``     ``AEONTO-ERROR-008``     insufficient funds available         try again later
 ``403``     ``AEONTO-ERROR-012``     too many requests                    try less often
-=========   ===================     =================================    ================
+=========   ====================     =================================    ================
 
 
 Example
@@ -138,16 +138,16 @@ to start querying the order's status. All other fields should be self-explanator
 
 On failure, one of the following errors is returned:
 
-=========   ===================     ================================    ================
+=========   ====================     ================================    ================
 HTTP code   AEON.to error code       Error message/reason                Solution
-=========   ===================     ================================    ================
+=========   ====================     ================================    ================
 ``503``     ``AEONTO-ERROR-001``     internal services not available     try again later
 ``400``     ``AEONTO-ERROR-002``     malformed bitcoin address           check address validity
 ``400``     ``AEONTO-ERROR-003``     invalid bitcoin amount              check amount data type
 ``400``     ``AEONTO-ERROR-004``     bitcoin amount out of bounds        check min and max amount
 ``400``     ``AEONTO-ERROR-005``     unexpected validation error         contact support
 ``403``     ``AEONTO-ERROR-012``     too many requests                   try less often
-=========   ===================     ================================    ================
+=========   ====================     ================================    ================
 
 
 
@@ -241,9 +241,9 @@ to start querying the order's status. All other fields should be self-explanator
 
 On failure, one of the following errors is returned:
 
-=========   ===================     ================================    ================
+=========   ====================     ================================    ================
 HTTP code   AEON.to error code       Error message/reason                Solution
-=========   ===================     ================================    ================
+=========   ====================     ================================    ================
 ``503``     ``AEONTO-ERROR-001``     internal services not available     try again later
 ``400``     ``AEONTO-ERROR-002``     malformed bitcoin address           check address validity
 ``400``     ``AEONTO-ERROR-003``     invalid bitcoin amount              check amount data type
@@ -252,7 +252,7 @@ HTTP code   AEON.to error code       Error message/reason                Solutio
 ``400``     ``AEONTO-ERROR-010``     payment protocol failed             invalid or outdated data served by url
 ``400``     ``AEONTO-ERROR-011``     malformed payment protocol url      url is malformed or cannot be contacted
 ``403``     ``AEONTO-ERROR-012``     too many requests                   try less often
-=========   ===================     ================================    ================
+=========   ====================     ================================    ================
 
 
 
@@ -369,13 +369,13 @@ All other fields should be self-explanatory.
 
 On failure, one of the following errors is returned:
 
-=========   ===================     ================================    ================
+=========   ====================     ================================    ================
 HTTP code   AEON.to error code       Error message/reason                Solution
-=========   ===================     ================================    ================
+=========   ====================     ================================    ================
 ``400``     ``AEONTO-ERROR-009``     invalid request                     check request parameters
 ``404``     ``AEONTO-ERROR-006``     requested order not found           check order UUID
 ``403``     ``AEONTO-ERROR-012``     too many requests                   try less often
-=========   ===================     ================================    ================
+=========   ====================     ================================    ================
 
 
 Example
@@ -480,14 +480,14 @@ On success (`HTTP` code ``200``), the request returns the following `JSON` data:
 
 On failure, one of the following errors is returned:
 
-=========   ===================     ================================    ================
+=========   ====================     ================================    ================
 HTTP code   AEON.to error code       Error message/reason                Solution
-=========   ===================     ================================    ================
+=========   ====================     ================================    ================
 ``400``     ``AEONTO-ERROR-004``     bitcoin amount out of bounds        check min and max amount
 ``400``     ``AEONTO-ERROR-005``     unexpected validation error         contact support
 ``400``     ``AEONTO-ERROR-009``     invalid request                     check request parameters
 ``403``     ``AEONTO-ERROR-012``     too many requests                   try less often
-=========   ===================     ================================    ================
+=========   ====================     ================================    ================
 
 
 Example
